@@ -4,7 +4,7 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$database_name = 'db_inventory_fahrulxipplg1';
+$database_name = 'db_inventory_fahrul';
 
 $conn = mysqli_connect($hostname, $username, $password, $database_name);
 

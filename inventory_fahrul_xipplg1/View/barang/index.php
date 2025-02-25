@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rull.Store</title>
+    <title>Cihuy.Store</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">rull.Store</a>
+    <a class="navbar-brand" href="#">Cihuy.Store</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,8 +52,8 @@
         <tr class="table-primary">
             <th scope="col">ID Barang</th>
             <th scope="col">ID Jenis</th>
-            <th scope="col">Stok</th>
-            <th scope="col">Harga</th>
+            <th scope="col">harga</th>
+            <th scope="col">stok</th>
             <th scope="col">Nama Barang</th>
             <th scope="col">Aksi</th>
         </tr>
@@ -66,8 +66,8 @@
                         <tr>
                             <td><?php echo $result['id_barang']?></td>
                             <td><?php echo $result['id_jenis']?></td>
-                            <td><?php echo $result['stok']?></td>
                             <td><?php echo $result['harga']?></td>
+                            <td><?php echo $result['stok']?></td>
                             <td><?php echo $result['nama_barang']?></td>
                             <td><button type="button" class="btn btn-outline-danger">Hapus</button>
                             <button type="button" class="btn btn-warning">Edit</button>
